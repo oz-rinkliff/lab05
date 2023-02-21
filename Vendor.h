@@ -1,4 +1,6 @@
-// Vendor.h is the class specification file - completed by FIXME_NAME
+// Vendor.h is the class specification file
+// Programmer: FIXME_NAME
+
 #ifndef VENDOR_H
 #define VENDOR_H
 

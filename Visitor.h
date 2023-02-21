@@ -1,4 +1,6 @@
-// Visitor.h is the class specification file - completed by FIXME_NAME
+// Visitor.h is the class specification file
+// Programmer: FIXME_NAME
+
 #ifndef VISITOR_H
 #define VISITOR_H
 

@@ -1,4 +1,6 @@
-// Car.h is the class specification file - completed by FIXME_NAME
+// Car.h is the class specification file
+// Programmer: FIXME_NAME
+
 #ifndef CAR_H
 #define CAR_H
 

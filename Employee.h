@@ -1,4 +1,6 @@
-// Employee.h is the class specification file - completed by FIXME_NAME
+// Employee.h is the class specification file
+// Programmer: FIXME_NAME
+
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
