@@ -1,4 +1,4 @@
-// Student.h is the class specification file
+// Student.h is the class specification file - completed by FIXME_NAME
 #ifndef STUDENT_H
 #define STUDENT_H
 

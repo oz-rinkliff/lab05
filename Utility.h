@@ -1,4 +1,4 @@
-// Utility.h is the class specification file
+// Utility.h is the class specification file - completed by FIXME_NAME
 #ifndef UTILITY_H
 #define UTILITY_H
 

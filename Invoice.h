@@ -1,4 +1,4 @@
-// Invoice.h is the class specification file
+// Invoice.h is the class specification file - completed by FIXME_NAME
 #ifndef INVOICE_H
 #define INVOICE_H
 

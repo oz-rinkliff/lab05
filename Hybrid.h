@@ -1,4 +1,4 @@
-// Hybrid.h is the class specification file
+// Hybrid.h is the class specification file - completed by FIXME_NAME
 #ifndef HYBRID_H
 #define HYBRID_H
 

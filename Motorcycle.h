@@ -1,4 +1,4 @@
-// Motorcycle.h is the class specification file
+// Motorcycle.h is the class specification file - completed by FIXME_NAME
 #ifndef MOTORCYCLE_H
 #define MOTORCYCLE_H
 
