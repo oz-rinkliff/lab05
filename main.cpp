@@ -20,49 +20,55 @@
 using namespace std;
 
 int main() {
-    //declare variables
-    int permitType; 
-    int vehicleType;
-    string temp1;
-    string temp2;
-    string temp3;
-    string temp4;
+    // variable declarations
+    int customerType, vehicleType;
+    string name, address, email, unique1, unique2;
 
-    //Prompt for user choice
-    cout << "Please enter if you are a Student, Employee, Vendor or Visitor: (1,2,3 or 4)" << endl;
-    cin >>  permitType;
+    // prints welcome message and initial menu
+    cout << "*********************************************************************************\n";
+    cout << "*     Welcome to the Clemson University Parking and Transportation Services     *\n";
+    cout << "*                                                                               *\n";
+    cout << "*         This program will print out an invoice for your parking pass.         *\n";
+    cout << "*********************************************************************************\n\n\n";
+    cout << "The following menu lists the customer type:\n\n\t1 - Visitor\n\t2 - Student\n\t3 - Employee\n\t4 - Vendor\n\n";
+    cout << "Enter the number corresponding to your identification: ";
+    cin >> customerType;
+
+    // input for universal variables
+    cout << "\n\tEnter your Name: ";
+    cin.ignore();
+    getline(cin, name);
+    cout << "\tEnter your Email: ";
+    getline(cin, email);
+    cout << "\tEnter your Address: ";
+    getline(cin, address);
+
+    // switch statement for customer type used for getting unique traits and creating class objects
+    switch (customerType) {
+        case 1:
+        cout << "\tEnter your major: ";
+        getline(cin, unique1);
+        cout << "\tEnter your class standing: ";
+        getline(cin, unique2);
+
+        Student student;
+        student.setName(name);
+        student.setEmail(email);
+        student.setAddress(address);
+        student.setMajor(unique1)
+        student.setClassYear(unique2);
+
+    }
+
+
+// FIXME_EVERYTHING_BELOW
+
 
     //function to calculate dicount and instance of Invoice object
     Invoice invoice;
     invoice.calcPermitPrice(permitType);
     
-    //if else tree for Permit type
-    if (permitType == 1){       //student output
-        Student student;
-        
-        cout << "Enter your Name: "<< endl;
-        cin.ignore();
-        getline(cin, temp1);
-        student.setName(temp1);
 
-        cout << "Enter your email: " << endl;
-        getline(cin, temp1);
-        student.setEmail(temp1);
-
-        cout << "Enter your Address: " << endl;
-        getline(cin, temp1);
-        student.setAddress(temp1);
-
-        cout << "Enter the class standing: " << endl;
-        getline(cin, temp1);
-        student.setClassYear(temp1);
-
-        cout << "Enter your major: " << endl;
-        getline(cin, temp1);
-        student.setMajor(temp1);
-
-        temp1 = student.getName() + "\n" + student.getEmail() + "\n" + student.getAddress() + "\n" + student.getClassYear() + "\n" + student.getMajor();
-    }
 
     if (permitType == 2){     //Employee Option
         Employee employee;
