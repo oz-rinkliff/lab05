@@ -3,4 +3,42 @@
 
 #include "Vendor.h"
 
-// FIXME_ADD_FUNCTIONS
+void Vendor::setName(string n) {
+
+}
+
+string Vendor::getName() {
+
+}
+
+void Vendor::setAddress(string a) {
+
+}
+
+string Vendor::getAddress() {
+
+}
+
+void Vendor::setEmail(string e) {
+
+}
+
+string Vendor::getEmail() {
+
+}
+
+void Vendor::setCompany() {
+
+}
+
+string Vendor::getCompany() {
+
+}
+
+void Vendor::setCompanyType() {
+
+}
+
+string Vendor::getCompanyType() {
+    
+}

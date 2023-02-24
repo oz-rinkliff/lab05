@@ -8,7 +8,15 @@
 class Motorcycle {
     private:
     //PRIVATE_FIXME
+        string  make, model;             // 
+        int     year;                       // 
+        double  engCC, wheelWidth;       // 
+
     public:
     //PUBLIC_FIXME
+        void    setMake(string),
+                setModel(string),
+                setYear()
+
 };
 #endif

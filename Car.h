@@ -4,11 +4,27 @@
 #ifndef CAR_H
 #define CAR_H
 
+#include <string.h>
+using namespace std;
+
 // Car class declaration
 class Car {
     private:
-    //PRIVATE_FIXME
+    string make;
+    string model;
+    int year;
+    int horsePower;
+    int decibel;
     public:
-    //PUBLIC_FIXME
+    void setMake(string);
+    void setModel(string);
+    void setYear(int);
+    void setHorsePwrt(int);
+    void setDecibel(int);
+    string getMake();
+    string getModel();
+    int getYear();
+    int getHorsePwr();
+    int getDecibel();
 };
 #endif

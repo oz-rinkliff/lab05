@@ -4,11 +4,30 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+#include <string.h>
+using namespace std;
+
 // Employee class declaration
 class Employee {
     private:
-    //PRIVATE_FIXME
+    string name {""};
+    string address {""};
+    string email {""};
+    string department {""};
+    string professorTitle {""};
     public:
-    //PUBLIC_FIXME
+    Employee() = default;
+    Employee(string n, string a, string e, string c, string p) : name{n}, address{a}, email{e}, college{c}, professorTitle{p}{}
+    void setName(string);
+    void setAddress(string);
+    void setEmail(string);
+    void setCollege(string);
+    void setTitle(string);
+    string getName();
+    string getAddress();
+    string getEmail();
+    string getDepartment();
+    string getTitle();
+
 };
 #endif
