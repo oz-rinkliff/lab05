@@ -11,21 +11,21 @@ using namespace std;
 class Employee {
     private:
     string name {""};
-    string address {""};
     string email {""};
+    string address {""};
     string department {""};
     string professorTitle {""};
     public:
     Employee() = default;
-    Employee(string n, string a, string e, string c, string p) : name{n}, address{a}, email{e}, college{c}, professorTitle{p}{}
+    Employee(string n, string e, string a, string d, string p) : name{n}, email{e}, address{a}, department{d}, professorTitle{p}{}
     void setName(string);
-    void setAddress(string);
     void setEmail(string);
-    void setCollege(string);
+    void setAddress(string);
+    void setDepartment(string);
     void setTitle(string);
     string getName();
-    string getAddress();
     string getEmail();
+    string getAddress();
     string getDepartment();
     string getTitle();
 
