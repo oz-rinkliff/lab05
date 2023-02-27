@@ -1,8 +1,7 @@
 // Group 14 - Jerome Booth, Rebecca Noyce, Oz Rinkliff, Michael Schoonmaker, Micheaux Simmons
 // Class: CPSC 1021
 // Date: 02.27.2023
-// Desc: Parking and Transportation Services has hired your team to revise its existing permit system and to develop a
-        //program that customers can use to purchase a permit under the new system.
+// Desc: This program will print an invoice based on user menu selections and input
 // Time: 2 weeks
 
 // included libraries and header files 
