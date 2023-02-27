@@ -1,10 +1,10 @@
 // Invoice.cpp is the Invoice class function implementation file
 // Programmer: Micheaux Simmons
 #include <iostream>
+#include <string>
 #include "Invoice.h"
 #include "Vendor.h"
 #include "Utility.h"
-#include <string>
 using namespace std;
 
 void Invoice::calcPermitPrice(int p){

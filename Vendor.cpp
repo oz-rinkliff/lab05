@@ -2,6 +2,8 @@
 // Programmer: FIXME_NAME
 
 #include "Vendor.h"
+#include <string>
+using namespace std;
 
 void Vendor::setName(string n) {
 

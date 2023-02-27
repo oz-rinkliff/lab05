@@ -17,10 +17,10 @@ void Utility::setModel(string o){
 void Utility::setYear(int y){
     year = y;
 }
-void Utility::setColor(string c){
-    color = c;
+void Utility::setWeight(double w){
+    weight = w;
 }
-void Utility::setLicencePlate(int l){
+void Utility::setLicencePlate(string l){
     licencePlate = l;
 }
 string Utility::getMake(){
@@ -32,9 +32,9 @@ string Utility::getModel(){
 int Utility::getYear(){
     return year;
 }
-string Utility::getColor(){
-    return color;
+double Utility::getWeight(){
+    return weight;
 }
-int Utility::getLicencePlate(){
+string Utility::getLicencePlate(){
     return licencePlate;
 }

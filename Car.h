@@ -4,7 +4,7 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include <string.h>
+#include <string>
 using namespace std;
 
 // Car class declaration

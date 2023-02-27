@@ -4,7 +4,7 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
-#include <string.h>
+#include <string>
 using namespace std;
 
 // Employee class declaration

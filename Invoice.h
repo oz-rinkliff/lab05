@@ -1,8 +1,11 @@
 // Invoice.h is the class specification file
 // Programmer: Micheaux Simmons
-#include <string>
+
 #ifndef INVOICE_H_
 #define INVOICE_H_
+
+#include <string>
+using namespace std;
 
 // Invoice class declaration
 class Invoice {
@@ -12,6 +15,6 @@ public:
     void calcPermitPrice(int);
     double getPermitPrice();
     
-    void printInvoice(std::string, std::string);
+    void printInvoice(string, string);
 };
 #endif

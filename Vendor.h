@@ -3,7 +3,9 @@
 
 #ifndef VENDOR_H_
 #define VENDOR_H_
+
 #include <string>
+using namespace std;
 
 // Vendor class declaration
 class Vendor {

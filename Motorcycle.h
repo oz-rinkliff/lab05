@@ -4,6 +4,10 @@
 #ifndef MOTORCYCLE_H
 #define MOTORCYCLE_H
 
+#include <string>
+using namespace std;
+
+
 // Motorcycle class declaration
 class Motorcycle {
     private:

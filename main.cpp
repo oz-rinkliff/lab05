@@ -21,9 +21,10 @@ using namespace std;
 
 int main() {
     // variable declarations
-    int customerType, vehicleType, year, unique1i, unique2i;
+    int customerType, vehicleType, year, unique1i, unique2i, numDays;
     double unique1d, unique2d;
     string name, address, email, unique1s, unique2s, make, model;
+    char permitType, paymentMthd;
 
     // prints welcome message and initial menu
     cout << "*********************************************************************************\n";
@@ -184,60 +185,46 @@ int main() {
         electric.setCapactiy(unique2i);
         break;
 
-        // utility FIX_ME******
+        // utility
         case 5:
-        cout << "\tEnter the Engine's CC: ";
-        cin >> unique1i;
-        cout >> "\tEnter the Wheel Width: ";
-        cin >> unique2d;
+        cout << "\tEnter the Vehicle's Weight: ";
+        cin >> unique1d;
+        cout >> "\tEnter the License Plate: ";
+        cin >> unique2s;
 
-        Motorcycle motorcycle;
-        motorcycle.setMake(make);
-        motorcycle.setModel(model);
-        motorcycle.setYear(year);
-        motorcycle.setEngineCC(unique1i);
-        motorcycle.setWheelWidth(unique2d);
+        Utility utility;
+        utility.setMake(make);
+        utility.setModel(model);
+        utility.setYear(year);
+        utility.setWeight(unique1d);
+        utility.setLicencePlate(unique2s);
         break;
     }
 
 
-// FIXME_EVERYTHING_BELOW
-
-
-    //function to calculate dicount and instance of Invoice object
-    Invoice invoice;
-    invoice.calcPermitPrice(permitType);
-
-    //if else tree for Vechical type.
-   
-    if (vehicleType == 1){
-        Utility utility;
-
-        cout << "Enter your vehicle make: " << endl;
-        cin.ignore();
-        getline(cin, temp2);
-        utility.setMake(temp2);
-
-        cout << "Enter your vehicle model: " << endl;
-        getline(cin, temp2);
-        utility.setModel(temp2);
-
-        cout << "Enter your vehicle year: " << endl;
-        cin >> vehicleType;
-        temp3 = to_string(utility.getYear());
-
-        cout << "Enter your vehicle color: " << endl;
-        getline(cin, temp2);
-        utility.setColor(temp2);
-
-        cout << "Enter your License Plate number: " << endl;
-        cin >> vehicleType;
-        temp4 = to_string(utility.getLicencePlate());
-
-        temp2 = utility.getMake() + "\n" + utility.getModel() + "\n" + temp3 + "\n" + utility.getColor() + "\n" + temp4;
+    // gets number of days for visitors/vendors
+    if (customerType == 1 || customerType == 4) {
+        cout << "\n\nEnter the number of days your will need a permit for: ";
+        cin >> numDays;
     }
 
-    //print invoice
-    invoice.printInvoice(temp1, temp2);
+    // gets permit type for visitors/vendors
+    if (customerType == 2 || customerType == 3) {
+        cout << "\n\nEnter 'S' for a semester permit or 'A' for an annual permit: ";
+        cin >> permitType;
+    }
+
+    cout << "Enter 'C' if paying with credit/debit card  or 'O' for other payment method: ";
+    cin >> paymentMthd;
+
+    cout << "\nThank you! Generating your invoice now...\n\n\n";
+    cout << "*********************************************************************************\n";
+    cout << "*            Clemson University Parking and Transportation Services             *\n";
+    cout << "*                                                                               *\n";
+    cout << "*                             Parking Pass Invoice                              *\n";
+    cout << "*********************************************************************************\n\n";
+
+    //FIXME_INVOICE_CLASS_PRINT
+
     return 0;
 }
