@@ -1,8 +1,8 @@
 // Invoice.h is the class specification file
 // Programmers: Micheaux Simmons, Oz Rinkliff
 
-#ifndef INVOICE_H_
-#define INVOICE_H_
+#ifndef INVOICE_H
+#define INVOICE_H
 
 #include <string>
 using namespace std;
