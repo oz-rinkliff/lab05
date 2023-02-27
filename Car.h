@@ -19,7 +19,7 @@ class Car {
     void setMake(string);
     void setModel(string);
     void setYear(int);
-    void setHorsePwrt(int);
+    void setHorsePwr(int);
     void setDecibel(int);
     string getMake();
     string getModel();

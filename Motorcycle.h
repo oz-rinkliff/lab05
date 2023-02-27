@@ -9,8 +9,8 @@ class Motorcycle {
     private:
     //PRIVATE_FIXME
         string  make, model;             // 
-        int     year;                       // 
-        double  engCC, wheelWidth;       // 
+        int     year, engCC;                       // 
+        double  wheelWidth;       // 
 
     public:
     //PUBLIC_FIXME

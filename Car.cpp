@@ -19,7 +19,7 @@ void Car::setDecibel(int input) {
     decibel = input;
 }
 
-void Car::setHorsepower(int input) {
+void Car::setHorsePwr(int input) {
     horsePower = input;
 }
 
@@ -39,6 +39,6 @@ int Car::getDecibel() {
     return decibel;
 }
 
-int Car::getHorsepower() {
+int Car::getHorsePwr() {
     return horsePower;
 }
