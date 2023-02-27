@@ -1,5 +1,5 @@
 // Electric.cpp is the Electric class function implementation file
-// Programmer: FIXME_NAME
+// Programmer: Oz Rinkliff
 
 #include "Electric.h"
 

@@ -1,5 +1,5 @@
 // Invoice.cpp is the Invoice class function implementation file
-// Programmer: Micheaux Simmons
+// Programmers: Micheaux Simmons, Oz Rinkliff
 #include <iostream>
 #include <string>
 #include "Invoice.h"

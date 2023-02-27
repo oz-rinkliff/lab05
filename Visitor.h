@@ -1,5 +1,5 @@
 // Visitor.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Oz Rinkliff
 
 #ifndef VISITOR_H
 #define VISITOR_H

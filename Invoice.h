@@ -1,5 +1,5 @@
 // Invoice.h is the class specification file
-// Programmer: Micheaux Simmons
+// Programmers: Micheaux Simmons, Oz Rinkliff
 
 #ifndef INVOICE_H_
 #define INVOICE_H_

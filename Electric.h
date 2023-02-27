@@ -1,5 +1,5 @@
 // Electric.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Oz Rinkliff
 
 #ifndef ELECTRIC_H
 #define ELECTRIC_H

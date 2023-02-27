@@ -1,5 +1,5 @@
 // Visitor.cpp is the Visitor class function implementation file
-// Programmer: FIXME_NAME
+// Programmer: Oz Rinkliff
 
 #include "Visitor.h"
 
