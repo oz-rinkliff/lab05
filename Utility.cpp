@@ -38,4 +38,3 @@ string Utility::getColor(){
 int Utility::getLicencePlate(){
     return licencePlate;
 }
-// FIXME_ADD_FUNCTIONS
