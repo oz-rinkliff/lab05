@@ -48,7 +48,7 @@ int main() {
     // switch statement for customer type used for getting unique traits and creating class objects
     switch (customerType) {
         // visitor
-        case 1:
+        case 1: {
         cout << "\tEnter the numer of hours for your duration on campus: ";
         cin >> unique1d;
         cout << "\tEnter your reason for visiting campus: ";
@@ -61,9 +61,10 @@ int main() {
         visitor.setDuration(unique1d);
         visitor.setReason(unique2s);
         break;
+        }
 
         // student
-        case 2:
+        case 2: {
         cout << "\tEnter your major: ";
         getline(cin, unique1s);
         cout << "\tEnter your class standing: ";
@@ -76,9 +77,10 @@ int main() {
         student.setMajor(unique1s);
         student.setClassYear(unique2s);
         break;
+        }
 
         // employee
-        case 3:
+        case 3: {
         cout << "\tEnter your department: ";
         getline(cin, unique1s);
         cout << "\tEnter your title: ";
@@ -91,9 +93,10 @@ int main() {
         employee.setDepartment(unique1s);
         employee.setTitle(unique2s);
         break;
+        }
 
         // vendor
-        case 4:
+        case 4: {
         cout << "\tEnter the name of your company: ";
         getline(cin, unique1s);
         cout << "\tEnter the company type: ";
@@ -106,6 +109,7 @@ int main() {
         vendor.setCompany(unique1s);
         vendor.setCompanyType(unique2s);
         break;
+        }
     }
 
     // prints car menu and inputs vehicle type
@@ -125,7 +129,7 @@ int main() {
     // switch statement for vehicle type used for getting unique traits and creating class objects
     switch (vehicleType) {
         // car
-        case 1:
+        case 1: {
         cout << "\tEnter the Horse Power: ";
         cin >> unique1i;
         cout << "\tEnter the Decibel Level of the Engine: ";
@@ -138,9 +142,10 @@ int main() {
         car.setHorsePwr(unique1i);
         car.setDecibel(unique2i);
         break;
+        }
 
         // motorcycle
-        case 2:
+        case 2: {
         cout << "\tEnter the Engine's CC: ";
         cin >> unique1i;
         cout << "\tEnter the Wheel Width: ";
@@ -153,9 +158,10 @@ int main() {
         motorcycle.setEngCC(unique1i);
         motorcycle.setWheelWidth(unique2d);
         break;
+        }
 
         // hybrid
-        case 3:
+        case 3: {
         cout << "\tEnter the MPG: ";
         cin >> unique1d;
         cout << "\tEnter the Drivetrain (RWD/FWD/AWD/4WD): ";
@@ -168,9 +174,10 @@ int main() {
         hybrid.setMPG(unique1d);
         hybrid.setDrivetrain(unique2s);
         break;
+        }
 
         // electric
-        case 4:
+        case 4: {
         cout << "\tEnter the Charge Time (in minutes): ";
         cin >> unique1i;
         cout << "\tEnter the Battery Capacity (in kWh): ";
@@ -181,11 +188,12 @@ int main() {
         electric.setModel(model);
         electric.setYear(year);
         electric.setChargeTime(unique1i);
-        electric.setCapactiy(unique2i);
+        electric.setCapacitiy(unique2i);
         break;
+        }
 
         // utility
-        case 5:
+        case 5: {
         cout << "\tEnter the Vehicle's Weight: ";
         cin >> unique1d;
         cout << "\tEnter the License Plate: ";
@@ -198,6 +206,7 @@ int main() {
         utility.setWeight(unique1d);
         utility.setLicencePlate(unique2s);
         break;
+        }
     }
 
     // gets number of days for visitors/vendors
