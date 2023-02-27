@@ -95,7 +95,7 @@ int main() {
         case 4:
         cout << "\tEnter the name of your company: ";
         getline(cin, unique1s);
-        cout << "\tEnter the type of your company: ";
+        cout << "\tEnter the company type: ";
         getline(cin, unique2);
 
         Vendor vendor;
@@ -105,8 +105,12 @@ int main() {
         vendor.setCompany(unique1s)
         vendor.setCompanyType(unique2);
         break;
-
     }
+
+
+    cout << "\n\nThe following menu lists the vehicle type:\n\n\t1 - Car\n\t2 - Motorcycle\n\t3 - Hybrid\n\t4 - Electric\n\t5 - Utility\n\n";
+    cout << "Enter the number corresponding to your vehicle type: ";
+    cin >> vehicleType;
 
 
 // FIXME_EVERYTHING_BELOW
