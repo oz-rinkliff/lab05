@@ -59,7 +59,7 @@ int main() {
         visitor.setName(name);
         visitor.setEmail(email);
         visitor.setAddress(address);
-        visitor.setDuration(unique1d)
+        visitor.setDuration(unique1d);
         visitor.setReason(unique2s);
         break;
 
@@ -74,7 +74,7 @@ int main() {
         student.setName(name);
         student.setEmail(email);
         student.setAddress(address);
-        student.setMajor(unique1s)
+        student.setMajor(unique1s);
         student.setClassYear(unique2s);
         break;
 
@@ -89,7 +89,7 @@ int main() {
         employee.setName(name);
         employee.setEmail(email);
         employee.setAddress(address);
-        employee.setDepartment(unique1s)
+        employee.setDepartment(unique1s);
         employee.setTitle(unique2s);
         break;
 
@@ -104,7 +104,7 @@ int main() {
         vendor.setName(name);
         vendor.setEmail(email);
         vendor.setAddress(address);
-        vendor.setCompany(unique1s)
+        vendor.setCompany(unique1s);
         vendor.setCompanyType(unique2s);
         break;
     }
@@ -129,7 +129,7 @@ int main() {
         case 1:
         cout << "\tEnter the Horse Power: ";
         cin >> unique1i;
-        cout >> "\tEnter the Decibel Level of the Engine: ";
+        cout << "\tEnter the Decibel Level of the Engine: ";
         cin >> unique2i;
 
         Car car;
@@ -144,14 +144,14 @@ int main() {
         case 2:
         cout << "\tEnter the Engine's CC: ";
         cin >> unique1i;
-        cout >> "\tEnter the Wheel Width: ";
+        cout << "\tEnter the Wheel Width: ";
         cin >> unique2d;
 
         Motorcycle motorcycle;
         motorcycle.setMake(make);
         motorcycle.setModel(model);
         motorcycle.setYear(year);
-        motorcycle.setEngineCC(unique1i);
+        motorcycle.setEngCC(unique1i);
         motorcycle.setWheelWidth(unique2d);
         break;
 
@@ -159,7 +159,7 @@ int main() {
         case 3:
         cout << "\tEnter the MPG: ";
         cin >> unique1d;
-        cout >> "\tEnter the Drivetrain (RWD/FWD/AWD/4WD): ";
+        cout << "\tEnter the Drivetrain (RWD/FWD/AWD/4WD): ";
         getline(cin, unique2s);
 
         Hybrid hybrid;
@@ -174,7 +174,7 @@ int main() {
         case 4:
         cout << "\tEnter the Charge Time (in minutes): ";
         cin >> unique1i;
-        cout >> "\tEnter the Battery Capacity (in kWh): ";
+        cout << "\tEnter the Battery Capacity (in kWh): ";
         cin >> unique2i;
 
         Electric electric;
@@ -189,7 +189,7 @@ int main() {
         case 5:
         cout << "\tEnter the Vehicle's Weight: ";
         cin >> unique1d;
-        cout >> "\tEnter the License Plate: ";
+        cout << "\tEnter the License Plate: ";
         cin >> unique2s;
 
         Utility utility;

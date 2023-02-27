@@ -4,29 +4,29 @@
 #ifndef MOTORCYCLE_H
 #define MOTORCYCLE_H
 #include <string>
+using namespace std;
 
 // Motorcycle class declaration
 class Motorcycle {
     private:
         string  make, model;
-        int     year; 
-        double  engCC,
-                wheelWidth;
+        int     year, endgCC; 
+        double  wheelWidth;
 
     public:
         void    setMake(string),
                 setModel(string),
                 setYear(int),
-                setEngCC(string),
-                setWheelWidth(string);
+                setEngCC(int),
+                setWheelWidth(double);
 
         string  getMake(),
                 getModel();
 
-        int     getYear();
+        int     getYear(),
+                getEngCC();
         
-        double  getEngCC(),
-                getWheelWidth();
+        double  getWheelWidth();
 
 };
 #endif

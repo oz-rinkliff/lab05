@@ -4,6 +4,7 @@
 #include "Hybrid.h"
 #include <iostream>
 #include <string>
+using namespace std;
 
 // "Setter" functions meant to set the value of a specific
 // variable based off of user input

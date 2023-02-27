@@ -5,29 +5,24 @@
 #define ELECTRIC_H
 
 #include <string>
+using namespace std;
 
 // Electric class declaration
 class Electric {
     private:
-    string make;
-    string model;
-    int year;
-    double chargeTime;
-    double batteryCapacity;
+    string make, model;
+    int year, chargeTime, capacity;
 
-    //PRIVATE_FIXME
     public:
     void setMake(string);
     void setModel(string);
     void setYear(int);
-    void setChargeTime(double);
-    void setBatteryCapacity(double);
+    void setChargeTime(int);
+    void setCapacity(int);
     string getMake();
     string getModel();
     int getYear();
-    double getChargeTime();
-    double getBatteryCapacity();
-
-    //PUBLIC_FIXME
+    int getChargeTime();
+    int getCapacity();
 };
 #endif

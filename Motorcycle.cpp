@@ -4,6 +4,7 @@
 #include "Motorcycle.h"
 #include <iostream>
 #include <string>
+using namespace std;
 
 // "Setter" functions meant to set the value of a specific
 // variable based off of user input
@@ -20,7 +21,7 @@ void Motorcycle::setYear(int y){
     year = y;
 };
 
-void Motorcycle::setEngCC(double ec){
+void Motorcycle::setEngCC(int ec){
     engCC = ec;
 };
 
@@ -42,7 +43,7 @@ int Motorcycle::getYear(){
     return year;
 };
 
-double Motorcycle::getEngCC(){
+int Motorcycle::getEngCC(){
     return engCC;
 };
 

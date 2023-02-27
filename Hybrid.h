@@ -4,6 +4,7 @@
 #ifndef HYBRID_H
 #define HYBRID_H
 #include <string>
+using namespace std;
 
 // Hybrid class declaration
 class Hybrid {

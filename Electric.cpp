@@ -2,46 +2,38 @@
 // Programmer: Oz Rinkliff
 
 #include "Electric.h"
+#include <string>
 using namespace std;
 
-void setMake(string input) {
-    make = input;
+
+// setter functions for input
+void Electric::setMake(string m) {
+    make = m;
 }
 
-void setModel(string input) {
-    model = input;
+void setModel(string mo) {
+    model = mo;
 }
 
-void setYear(int input) {
-    year = input;
+void setYear(int y) {
+    year = y;
 }
 
-void setChargeTime(double input) {
-    chargeTime = input;
+void setChargeTime(int c) {
+    chargeTime = c;
 }
 
-void setBatteryCapacity(double input) {
-    batteryCapacity = input;
+void setCapacity(int ca) {
+    capacity = ca;
 }
 
-string getMake() {
-    return make;
-}
+// return functions for values of variables
+string getMake() {return make;}
 
-string getModel() {
-    return model;
-}
+string getModel() {return model;}
 
-int getYear() {
-    return year;
-}
+int getYear() {return year;}
 
-double getChargeTime() {
-    return chargeTime;
-}
+int getChargeTime() {return chargeTime;}
 
-double getBatteryCapacity() {
-    return batteryCapacity;
-}
-
-// FIXME_ADD_FUNCTIONS
+int getCapacity() {return batteryCapacity;}
