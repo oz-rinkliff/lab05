@@ -1,5 +1,5 @@
 // Car.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Jerome Booth
 
 #ifndef CAR_H
 #define CAR_H

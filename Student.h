@@ -3,7 +3,6 @@
 
 #ifndef STUDENT_H
 #define STUDENT_H
-
 #include <string>
 using namespace std;
 
@@ -11,20 +10,20 @@ using namespace std;
 class Student {
 private:
     string name;
-    string address;
     string email;
-    string classYear;
+    string address;
     string major;
+    string classYear;
 public:
     void setName(string n);
-    void setAddress(string a);
     void setEmail(string e);
+    void setAddress(string a);
     void setClassYear(string y);
     void setMajor(string m);
     string getName();
-    string getAddress();
     string getEmail();
-    string getClassYear();
+    string getAddress();
     string getMajor();
+    string getClassYear();
 };
 #endif

@@ -1,26 +1,32 @@
 // Motorcycle.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Michael Schoonmaker
 
 #ifndef MOTORCYCLE_H
 #define MOTORCYCLE_H
-
 #include <string>
-using namespace std;
-
 
 // Motorcycle class declaration
 class Motorcycle {
     private:
-    //PRIVATE_FIXME
-        string  make, model;             // 
-        int     year, engCC;                       // 
-        double  wheelWidth;       // 
+        string  make, model;
+        int     year; 
+        double  engCC,
+                wheelWidth;
 
     public:
-    //PUBLIC_FIXME
         void    setMake(string),
                 setModel(string),
-                setYear()
+                setYear(int),
+                setEngCC(string),
+                setWheelWidth(string);
+
+        string  getMake(),
+                getModel();
+
+        int     getYear();
+        
+        double  getEngCC(),
+                getWheelWidth();
 
 };
 #endif

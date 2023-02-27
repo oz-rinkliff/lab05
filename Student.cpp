@@ -9,31 +9,30 @@ using namespace std;
 void Student::setName(string n){
     name = n;
 }
-void Student::setAddress(string a){
-    address = a;
-}
 void Student::setEmail(string e){
     email = e;
 }
-void Student::setClassYear(string y){
-    classYear = y;
+void Student::setAddress(string a){
+    address = a;
 }
 void Student::setMajor(string m){
     major = m;
 }
+void Student::setClassYear(string y){
+    classYear = y;
+}
 string Student::getName(){
     return name;
-}
-string Student::getAddress(){
-    return address;
 }
 string Student::getEmail(){
     return email;
 }
-string Student::getClassYear(){
-    return classYear;
+string Student::getAddress(){
+    return address;
 }
 string Student::getMajor(){
     return major;
 }
-// FIXME_ADD_FUNCTIONS
+string Student::getClassYear(){
+    return classYear;
+}

@@ -1,5 +1,5 @@
 // Employee.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Jerome Booth
 
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
@@ -10,14 +10,12 @@ using namespace std;
 // Employee class declaration
 class Employee {
     private:
-    string name {""};
-    string email {""};
-    string address {""};
-    string department {""};
-    string professorTitle {""};
+    string name;
+    string email;
+    string address;
+    string department;
+    string title;
     public:
-    Employee() = default;
-    Employee(string n, string e, string a, string d, string p) : name{n}, email{e}, address{a}, department{d}, professorTitle{p}{}
     void setName(string);
     void setEmail(string);
     void setAddress(string);

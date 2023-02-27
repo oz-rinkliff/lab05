@@ -2,5 +2,19 @@
 // Programmer: Oz Rinkliff
 
 #include "Visitor.h"
+#include <string>
+using namespace std;
 
-// FIXME_ADD_FUNCTIONS
+
+// setter functions for input
+void Visitor::setName(string n) {
+    name = n;
+}
+
+void Visitor::setEmail(string e) {
+    email = e;
+}
+
+void Visitor::setAddress(string a) {
+    address = a;
+}

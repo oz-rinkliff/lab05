@@ -1,11 +1,12 @@
 // Group 14 - Jerome Booth, Rebecca Noyce, Oz Rinkliff, Michael Schoonmaker, Micheaux Simmons
 // Class: CPSC 1021
-// Date: 02.22.2023
-// Desc: FIXME_DESCRIPTION
-// Time: FIXME_TIME AHHHHHH
+// Date: 02.27.2023
+// Desc: Parking and Transportation Services has hired your team to revise its existing permit system and to develop a
+        //program that customers can use to purchase a permit under the new system.
+// Time: 2 weeks
 
 // included libraries and header files 
-#include <iostream>
+#include <iostream>  
 #include <string>
 #include "Car.h"
 #include "Electric.h"
@@ -108,7 +109,6 @@ int main() {
         break;
     }
 
-
     // prints car menu and inputs vehicle type
     cout << "\n\nThe following menu lists the vehicle type:\n\n\t1 - Car\n\t2 - Motorcycle\n\t3 - Hybrid\n\t4 - Electric\n\t5 - Utility\n\n";
     cout << "Enter the number corresponding to your vehicle type: ";
@@ -201,7 +201,6 @@ int main() {
         break;
     }
 
-
     // gets number of days for visitors/vendors
     if (customerType == 1 || customerType == 4) {
         cout << "\n\nEnter the number of days your will need a permit for: ";
@@ -224,7 +223,7 @@ int main() {
     cout << "*                             Parking Pass Invoice                              *\n";
     cout << "*********************************************************************************\n\n";
 
-    //FIXME_INVOICE_CLASS_PRINT
-
+    //print invoice
+    invoice.printInvoice(unique1s, unique2s);
     return 0;
 }

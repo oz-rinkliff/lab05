@@ -33,7 +33,6 @@ void Invoice::calcPermitPrice(int p){
 double Invoice::getPermitPrice(){
     return permitPrice;
 }
-
 void Invoice::printInvoice(string p , string v) {
     cout << "Invoice" << endl;
     cout << "-------------------" << endl;
@@ -42,4 +41,3 @@ void Invoice::printInvoice(string p , string v) {
     cout << "Service Charge: $10" << endl;
     cout << "Total: $" << getPermitPrice() + 10 << endl;
 }
-// FIXME_ADD_FUNCTIONS

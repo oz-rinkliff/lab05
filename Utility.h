@@ -23,7 +23,6 @@ public:
     void setYear(int);
     void setWeight(double);
     void setLicencePlate(string);
-    
     string getMake();
     string getModel();
     int getYear();
