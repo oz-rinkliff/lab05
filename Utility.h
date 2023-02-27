@@ -1,5 +1,5 @@
 // Utility.h is the class specification file
-// Programmer: FIXME_NAME
+// Programmer: Micheaux Simmons
 
 #ifndef UTILITY_H
 #define UTILITY_H
@@ -17,11 +17,13 @@ private:
 public:
     Utility();
     Utility(string, string, int, double, string);
+    
     void setMake(string);
     void setModel(string);
     void setYear(int);
     void setWeight(double);
     void setLicencePlate(string);
+    
     string getMake();
     string getModel();
     int getYear();
