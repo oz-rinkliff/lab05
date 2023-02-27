@@ -1,8 +1,8 @@
 // Student.h is the class specification file
 // Programmer: Micheaux Simmons
 
-#ifndef STUDENT_H_
-#define STUDENT_H_
+#ifndef STUDENT_H
+#define STUDENT_H
 
 #include <string>
 using namespace std;
