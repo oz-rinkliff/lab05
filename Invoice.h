@@ -2,6 +2,8 @@
 // Programmers: Micheaux Simmons, Oz Rinkliff
 #ifndef INVOICE_H
 #define INVOICE_H
+
+#include "Student.h"
 #include <string>
 using namespace std;
 
