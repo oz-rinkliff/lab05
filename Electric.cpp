@@ -11,29 +11,29 @@ void Electric::setMake(string m) {
     make = m;
 }
 
-void setModel(string mo) {
+void Electric::setModel(string mo) {
     model = mo;
 }
 
-void setYear(int y) {
+void Electric::setYear(int y) {
     year = y;
 }
 
-void setChargeTime(int c) {
+void Electric::setChargeTime(int c) {
     chargeTime = c;
 }
 
-void setCapacity(int ca) {
+void Electric::setCapacity(int ca) {
     capacity = ca;
 }
 
 // return functions for values of variables
-string getMake() {return make;}
+string Electric::getMake() {return make;}
 
-string getModel() {return model;}
+string Electric::getModel() {return model;}
 
-int getYear() {return year;}
+int Electric::getYear() {return year;}
 
-int getChargeTime() {return chargeTime;}
+int Electric::getChargeTime() {return chargeTime;}
 
-int getCapacity() {return batteryCapacity;}
+int Electric::getCapacity() {return batteryCapacity;}

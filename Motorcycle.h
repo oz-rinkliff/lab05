@@ -10,7 +10,7 @@ using namespace std;
 class Motorcycle {
     private:
         string  make, model;
-        int     year, endgCC; 
+        int     year, engCC; 
         double  wheelWidth;
 
     public:

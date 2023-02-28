@@ -188,7 +188,7 @@ int main() {
         electric.setModel(model);
         electric.setYear(year);
         electric.setChargeTime(unique1i);
-        electric.setCapacitiy(unique2i);
+        electric.setCapacity(unique2i);
         break;
         }
 
