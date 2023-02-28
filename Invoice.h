@@ -14,7 +14,7 @@ private:
 public:
     void setUniqueC1d(double);
     double getUniqueC1d();
-    void printTest();
+    void printTest(Student);
     //void calcPermitPrice(int);
     //double getPermitPrice();
    // void printInvoice(string, string);

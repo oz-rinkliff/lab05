@@ -7,42 +7,6 @@
 #include "Utility.h"
 using namespace std;
 
-/*
-void Invoice::calcPermitPrice(int p){
-    //if student
-    if (p == 1)
-    {
-        permitPrice = 10;
-    }
-    //if employee
-    else if (p == 2) 
-    {
-        permitPrice = 100.00;
-    }
-    //if Vendor
-    else if (p == 3)
-    {
-        permitPrice = 100.00;
-    }
-    //if visitor
-    else if (p == 4)
-    {
-        permitPrice = 100;
-    }
-}
-
-double Invoice::getPermitPrice(){
-    return permitPrice;
-}
-void Invoice::printInvoice(string p , string v) {
-    cout << "Invoice" << endl;
-    cout << "-------------------" << endl;
-    cout <<  p << endl;
-    cout << v << endl;
-    cout << "Service Charge: $10" << endl;
-    cout << "Total: $" << getPermitPrice() + 10 << endl;
-}
-*/
 
 void Invoice::setUniqueC1d(double a) {
     uC1d = a;
@@ -50,7 +14,8 @@ void Invoice::setUniqueC1d(double a) {
 
 double Invoice::getUniqueC1d() {return uC1d;}
 
-void Invoice::printTest() {
+void Invoice::printTest(Student s) {
     cout << "\n\nHELLO I HOPE THIS WORKS...\n\n";
-    cout << "The number entered is " << uC1d << endl;
+    cout << "Your name is " << s.getName << endl;
+    cout << "Your email is " << s.getEmail << endl;
 }

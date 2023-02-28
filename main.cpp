@@ -80,6 +80,8 @@ int main() {
         student.setAddress(address);
         student.setMajor(unique1s);
         student.setClassYear(unique2s);
+
+        invoice.printTest(student);
         break;
         }
 
