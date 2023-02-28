@@ -1,24 +1,47 @@
 // Invoice.h is the class specification file
-// Programmers: Micheaux Simmons, Oz Rinkliff
+// Programmer: Oz Rinkliff
 #ifndef INVOICE_H
 #define INVOICE_H
 
+#include "Car.h"
+#include "Electric.h"
+#include "Employee.h"
+#include "Hybrid.h"
+#include "Motorcycle.h"
 #include "Student.h"
+#include "Utility.h"
+#include "Vendor.h"
+#include "Visitor.h"
 #include <string>
 using namespace std;
 
 // Invoice class declaration
 class Invoice {
 private:
-    //int type;
-    //double price;
-    double uC1d;
+    int cT, vT, d, y;
+    string  n, e, a, 
+            u1c, u2c,
+            mA, mO, y, 
+            u1v, u2v;
+    char pT, pM;
 public:
-    void setUniqueC1d(double);
-    double getUniqueC1d();
+    void setCT(int);
+    void setVT(int);
+    void setD(int);
+    void setPT(char);
+    void setPM(char);
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    double subTotal();
+    double serviceCharge();
+    double total();
     void printTest(Student);
-    //void calcPermitPrice(int);
-    //double getPermitPrice();
-   // void printInvoice(string, string);
 };
 #endif

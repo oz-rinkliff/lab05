@@ -36,6 +36,7 @@ int main() {
     cout << "The following menu lists the customer type:\n\n\t1 - Visitor\n\t2 - Student\n\t3 - Employee\n\t4 - Vendor\n\n";
     cout << "Enter the number corresponding to your identification: ";
     cin >> customerType;
+    invoice.setCT(customerType);
 
     // input for universal variables
     cout << "\n\tEnter your Name: ";
@@ -63,7 +64,7 @@ int main() {
         visitor.setDuration(unique1d);
         visitor.setReason(unique2s);
 
-        invoice.setUniqueC1d(unique1d);
+        //invoice.setUniqueC1d(unique1d);
         break;
         }
 
@@ -81,7 +82,7 @@ int main() {
         student.setMajor(unique1s);
         student.setClassYear(unique2s);
 
-        invoice.printTest(student);
+        //invoice.printTest(student);
         break;
         }
 
@@ -122,6 +123,7 @@ int main() {
     cout << "\n\nThe following menu lists the vehicle type:\n\n\t1 - Car\n\t2 - Motorcycle\n\t3 - Hybrid\n\t4 - Electric\n\t5 - Utility\n\n";
     cout << "Enter the number corresponding to your vehicle type: ";
     cin >> vehicleType;
+    invoice.setVT(vehicleType);
 
      // input for universal vehicle variables
     cout << "\n\tEnter the Make: ";
@@ -154,7 +156,7 @@ int main() {
         case 2: {
         cout << "\tEnter the Engine's CC: ";
         cin >> unique1i;
-        cout << "\tEnter the Wheel Width: ";
+        cout << "\tEnter the Wheel Width (in inches): ";
         cin >> unique2d;
 
         Motorcycle motorcycle;
@@ -221,27 +223,23 @@ int main() {
     if (customerType == 1 || customerType == 4) {
         cout << "\n\nEnter the number of days your will need a permit for: ";
         cin >> numDays;
+        invoice.setD(numDays);
     }
 
     // gets permit type for visitors/vendors
     if (customerType == 2 || customerType == 3) {
         cout << "\n\nEnter 'S' for a semester permit or 'A' for an annual permit: ";
         cin >> permitType;
+        invoice.setPT(permitType);
     }
 
+    // gets payment method
     cout << "Enter 'C' if paying with credit/debit card  or 'O' for other payment method: ";
     cin >> paymentMthd;
+    invoice.setPM(paymentMthd);
 
-    cout << "\nThank you! Generating your invoice now...\n\n\n";
-    cout << "*********************************************************************************\n";
-    cout << "*            Clemson University Parking and Transportation Services             *\n";
-    cout << "*                                                                               *\n";
-    cout << "*                             Parking Pass Invoice                              *\n";
-    cout << "*********************************************************************************\n\n";
+    // Invoice Class function prints invoice
+    invoice.printInvoice();
 
-    //print invoice
-    // invoice.printInvoice(unique1s, unique2s);
-
-    //invoice.printTest();
     return 0;
 }
