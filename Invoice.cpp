@@ -16,6 +16,6 @@ double Invoice::getUniqueC1d() {return uC1d;}
 
 void Invoice::printTest(Student s) {
     cout << "\n\nHELLO I HOPE THIS WORKS...\n\n";
-    cout << "Your name is " << s.getName << endl;
-    cout << "Your email is " << s.getEmail << endl;
+    cout << "Your name is " << s.getName() << endl;
+    cout << "Your email is " << s.getEmail() << endl;
 }

@@ -242,6 +242,6 @@ int main() {
     //print invoice
     // invoice.printInvoice(unique1s, unique2s);
 
-    invoice.printTest();
+    //invoice.printTest();
     return 0;
 }
