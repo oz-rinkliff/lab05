@@ -36,4 +36,4 @@ int Electric::getYear() {return year;}
 
 int Electric::getChargeTime() {return chargeTime;}
 
-int Electric::getCapacity() {return batteryCapacity;}
+int Electric::getCapacity() {return capacity;}
