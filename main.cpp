@@ -1,4 +1,4 @@
-// Group 14 - Jerome Booth, Rebecca Noyce, Oz Rinkliff, Michael Schoonmaker, Micheaux Simmons
+// Group 14 - Jerome Booth, Madison Noyce, Oz Rinkliff, Michael Schoonmaker, Micheaux Simmons
 // Class: CPSC 1021
 // Date: 02.27.2023
 // Desc: This program will print an invoice based on user menu selections and input
@@ -25,6 +25,7 @@ int main() {
     double unique1d, unique2d;
     string name, address, email, unique1s, unique2s, make, model;
     char permitType, paymentMthd;
+    Invoice invoice;
 
     // prints welcome message and initial menu
     cout << "\n*********************************************************************************\n";
@@ -61,6 +62,8 @@ int main() {
         visitor.setAddress(address);
         visitor.setDuration(unique1d);
         visitor.setReason(unique2s);
+
+        invoice.setUniqueC1d(unique1d);
         break;
         }
 
@@ -236,5 +239,7 @@ int main() {
 
     //print invoice
     // invoice.printInvoice(unique1s, unique2s);
+
+    invoice.printTest();
     return 0;
 }

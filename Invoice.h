@@ -8,10 +8,15 @@ using namespace std;
 // Invoice class declaration
 class Invoice {
 private:
-    double permitPrice;
+    //int type;
+    //double price;
+    double uC1d;
 public:
-    void calcPermitPrice(int);
-    double getPermitPrice();
-    void printInvoice(string, string);
+    void setUniqueC1d(double);
+    double getUniqueC1d();
+    void printTest();
+    //void calcPermitPrice(int);
+    //double getPermitPrice();
+   // void printInvoice(string, string);
 };
 #endif
