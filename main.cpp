@@ -27,7 +27,7 @@ int main() {
     char permitType, paymentMthd;
 
     // prints welcome message and initial menu
-    cout << "*********************************************************************************\n";
+    cout << "\n*********************************************************************************\n";
     cout << "*     Welcome to the Clemson University Parking and Transportation Services     *\n";
     cout << "*                                                                               *\n";
     cout << "*         This program will print out an invoice for your parking pass.         *\n";
@@ -52,6 +52,7 @@ int main() {
         cout << "\tEnter the numer of hours for your duration on campus: ";
         cin >> unique1d;
         cout << "\tEnter your reason for visiting campus: ";
+        cin.ignore();
         getline(cin, unique2s);
 
         Visitor visitor;
@@ -165,6 +166,7 @@ int main() {
         cout << "\tEnter the MPG: ";
         cin >> unique1d;
         cout << "\tEnter the Drivetrain (RWD/FWD/AWD/4WD): ";
+        cin.ignore();
         getline(cin, unique2s);
 
         Hybrid hybrid;
@@ -197,6 +199,7 @@ int main() {
         cout << "\tEnter the Vehicle's Weight: ";
         cin >> unique1d;
         cout << "\tEnter the License Plate: ";
+        cin.ignore();
         cin >> unique2s;
 
         Utility utility;
