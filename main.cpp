@@ -23,7 +23,7 @@ int main() {
     // variable declarations
     int customerType, vehicleType, year, unique1i, unique2i, numDays;
     string name, address, email, unique1s, unique2s, make, model;
-    double unique1d, unique2d;
+    double unique1d;
     char permitType, paymentMthd;
     Invoice invoice;
 
