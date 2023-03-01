@@ -21,11 +21,11 @@ void Invoice::setD(int i) {
 }
 
 void Invoice::setPT(char i) {
-    pT = i;
+    pT = toupper(i);
 }
 
 void Invoice::setPM(char i) {
-    pM = i;
+    pM = toupper(i);
 }
 
 void Invoice::setVarsC(Visitor c) {
@@ -49,23 +49,28 @@ void Invoice::setVarsC(Vendor c) {
 }
 
 void Invoice::setVarsV(Car c) {
-    //FIXME
+    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    u1v = to_string(c.getHorsePwr()); u2v = to_string(c.getDecibel());
 }
 
 void Invoice::setVarsV(Motorcycle c) {
-    //FIXME
+    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    u1v = to_string(c.getEngCC()); u2v = to_string(c.getWheelWidth());
 }
 
 void Invoice::setVarsV(Hybrid c) {
-    //FIXME
+    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    u1v = to_string(c.getMPG()); u2v = c.getDrivetrain();
 }
 
 void Invoice::setVarsV(Electric c) {
-    //FIXME
+    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    u1v = to_string(c.getChargeTime()); u2v = to_string(c.getCapacity());
 }
 
 void Invoice::setVarsV(Utility c) {
-    //FIXME
+    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    u1v = to_string(c.getWeight()); u2v = c.getLicencePlate();
 }
 
 // subtotal calculation function
