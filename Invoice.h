@@ -39,9 +39,9 @@ public:
     //
     //
     //
-   // double subTotal();
-    //double serviceCharge();
-    //double total();
+    // double subTotal();
+    double serviceCharge();
+    double total();
     void printInvoice();
 };
 #endif

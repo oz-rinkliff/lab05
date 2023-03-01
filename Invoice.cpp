@@ -106,7 +106,7 @@ void Invoice::printInvoice() {
     if (cT == 1 || cT == 4) cout << "Number of Days: " << d << endl << endl;
     if (cT == 2 || cT == 3) cout << "Permit Type: " << pT << endl << endl;
     // SUBTOTAL_FIXME
-    if (pM == 'C') cout << "Service Charge (4%): $" << Invoice::serviceCharge() << endl << endl << endl;
+    if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl << endl;
     // DISCOUNT_FIXME
-    cout << "Total: $" << Invoice::total() << endl << endl;
+    cout << "Total: $" << total() << endl << endl;
 }
