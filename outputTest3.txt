@@ -13,13 +13,13 @@ The following menu lists the customer type:
 	3 - Employee
 	4 - Vendor
 
-Enter the number corresponding to your identification: 3
+Enter the number corresponding to your identification: 
 
-	Enter your Name: Daniel Robert
-	Enter your Email: daniel7@gmail.com
-	Enter your Address: 100 Lake Street
-	Enter your Department: Computer Science
-	Enter your Title: Professor
+	Enter your Name: 
+	Enter your Email: 
+	Enter your Address: 
+	Enter your Department: 
+	Enter your Title: 
 
 
 The following menu lists the vehicle type:
@@ -30,17 +30,17 @@ The following menu lists the vehicle type:
 	4 - Electric
 	5 - Utility
 
-Enter the number corresponding to your vehicle type: 4
+Enter the number corresponding to your vehicle type: 
 
-	Enter the Make: Tesla
-	Enter the Model: Y
-	Enter the Year: 2022
-	Enter the Charge Time (in minutes): 690
-	Enter the Battery Capacity (in kWh): 81
+	Enter the Make: 
+	Enter the Model: 
+	Enter the Year: 
+	Enter the Charge Time (in minutes): 
+	Enter the Battery Capacity (in kWh): 
 
 
-Enter 'S' for a semester permit or 'A' for an annual permit: S
-Enter 'C' if paying with credit/debit card  or 'O' for other payment method: O
+Enter 'S' for a semester permit or 'A' for an annual permit: 
+Enter 'C' if paying with credit/debit card  or 'O' for other payment method: 
 
 Thank you! Generating your invoice now...
 
@@ -82,5 +82,4 @@ Employee Discount: $76.36
 Total: $15.64
 
 ---------------------------------------------------------------------------------
-
 

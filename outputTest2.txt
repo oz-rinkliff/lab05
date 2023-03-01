@@ -13,13 +13,13 @@ The following menu lists the customer type:
 	3 - Employee
 	4 - Vendor
 
-Enter the number corresponding to your identification: 2
+Enter the number corresponding to your identification: 
 
-	Enter your Name: Daniel Robert
-	Enter your Email: daniel7@gmail.com
-	Enter your Address: 100 Lake Street
-	Enter your Major: Computer Science
-	Enter your Class Standing: Junior
+	Enter your Name: 
+	Enter your Email: 
+	Enter your Address: 
+	Enter your Major: 
+	Enter your Class Standing: 
 
 
 The following menu lists the vehicle type:
@@ -30,17 +30,17 @@ The following menu lists the vehicle type:
 	4 - Electric
 	5 - Utility
 
-Enter the number corresponding to your vehicle type: 2
+Enter the number corresponding to your vehicle type: 
 
-	Enter the Make: BMW
-	Enter the Model: 1250 GS Adventure
-	Enter the Year: 2021
-	Enter the Engine's CC: 1254
-	Enter the Wheel Width (in inches): 19
+	Enter the Make: 
+	Enter the Model: 
+	Enter the Year: 
+	Enter the Engine's CC: 
+	Enter the Wheel Width (in inches): 
 
 
-Enter 'S' for a semester permit or 'A' for an annual permit: A
-Enter 'C' if paying with credit/debit card  or 'O' for other payment method: C
+Enter 'S' for a semester permit or 'A' for an annual permit: 
+Enter 'C' if paying with credit/debit card  or 'O' for other payment method: 
 
 Thank you! Generating your invoice now...
 
@@ -82,5 +82,4 @@ Service Charge (4%): $1.52
 Total: $39.52
 
 ---------------------------------------------------------------------------------
-
 
