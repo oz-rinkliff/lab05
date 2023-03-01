@@ -73,16 +73,16 @@ double Invoice::serviceCharge() {
 
 // discount calculation function
 double Invoice::discount() {
-    double discount = 0.0
-    if (cT == 3) discount = subTotal() * 0.83;
-    if (cT == 4) discount = subTotal() * 0.5;
-    return discount;
+    double di = 0.0;
+    if (cT == 3) di = subTotal() * 0.83;
+    if (cT == 4) di = subTotal() * 0.5;
+    return di;
 }
 
 // total calculation function
 double Invoice::total() {
     double t = 0.0;
-    total = subTotal() + serviceCharge() - discount();
+    t = subTotal() + serviceCharge() - discount();
     return t;
 }
 
@@ -157,7 +157,7 @@ void Invoice::printInvoice() {
     cout << fixed << setprecision(2);
     if (cT == 1 || cT == 4) cout << "Number of Days: " << d << endl << endl;
     if (cT == 2 || cT == 3) cout << "Permit Type: " << pT << endl << endl;
-    cout << "Subtotal: $" << subTotal() << endl << endl:
+    cout << "Subtotal: $" << subTotal() << endl << endl;
     if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl;
     if (cT == 3 || cT == 4) {
         if (cT == 3) cout << "Employee ";
