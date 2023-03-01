@@ -19,7 +19,7 @@ void Visitor::setAddress(string a) {
     address = a;
 }
 
-void Visitor::setDuration(double d) {
+void Visitor::setDuration(int d) {
     duration = d;
 }
 
@@ -35,6 +35,6 @@ string Visitor::getEmail() {return email;}
 
 string Visitor::getAddress() {return address;}
 
-double Visitor::getDuration() {return duration;}
+int Visitor::getDuration() {return duration;}
 
 string Visitor::getReason() {return reason;}

@@ -51,8 +51,8 @@ int main() {
     switch (customerType) {
         // visitor
         case 1: {
-        cout << "\tEnter the numer of hours for your duration on campus: ";
-        cin >> unique1d;
+        cout << "\tEnter the number of hours for your duration on campus: ";
+        cin >> unique1i;
         cout << "\tEnter your reason for visiting campus: ";
         cin.ignore();
         getline(cin, unique2s);
@@ -61,7 +61,7 @@ int main() {
         visitor.setName(name);
         visitor.setEmail(email);
         visitor.setAddress(address);
-        visitor.setDuration(unique1d);
+        visitor.setDuration(unique1i);
         visitor.setReason(unique2s);
 
         invoice.setVarsC(visitor);

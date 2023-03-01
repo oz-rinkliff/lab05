@@ -11,18 +11,18 @@ using namespace std;
 class Visitor {
     private:
         string name, email, address, reason;
-        double duration; 
+        int duration; 
         
     public:
         void setName(string);
         void setEmail(string);
         void setAddress(string);
-        void setDuration(double);
+        void setDuration(int);
         void setReason(string);
         string getName();
         string getEmail();
         string getAddress();
-        double getDuration();
+        int getDuration();
         string getReason();
 };
 #endif
