@@ -1,47 +1,3 @@
-
-*********************************************************************************
-*     Welcome to the Clemson University Parking and Transportation Services     *
-*                                                                               *
-*         This program will print out an invoice for your parking pass.         *
-*********************************************************************************
-
-
-The following menu lists the customer type:
-
-	1 - Visitor
-	2 - Student
-	3 - Employee
-	4 - Vendor
-
-Enter the number corresponding to your identification: 
-
-	Enter your Name: 
-	Enter your Email: 
-	Enter your Address: 
-	Enter the number of hours for your duration on campus: 
-	Enter your reason for visiting campus: 
-
-
-The following menu lists the vehicle type:
-
-	1 - Car
-	2 - Motorcycle
-	3 - Hybrid
-	4 - Electric
-	5 - Utility
-
-Enter the number corresponding to your vehicle type: 
-
-	Enter the Make: 
-	Enter the Model: 
-	Enter the Year: 
-	Enter the Horse Power: 
-	Enter the Decibel Level of the Engine: 
-
-
-Enter the number of days your will need a permit for: 
-Enter 'C' if paying with credit/debit card  or 'O' for other payment method: 
-
 Thank you! Generating your invoice now...
 
 
@@ -82,4 +38,3 @@ Service Charge (4%): $0.30
 Total: $7.80
 
 ---------------------------------------------------------------------------------
-
