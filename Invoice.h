@@ -14,7 +14,7 @@
 #include "Visitor.h"
 #include <string>
 using namespace std;
-x
+
 // Invoice class declaration
 class Invoice {
 private:
