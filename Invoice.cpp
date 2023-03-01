@@ -28,10 +28,60 @@ void Invoice::setPM(char i) {
     pM = i;
 }
 
+// subtotal calculation function
+double Invoice::subTotal() {
+    double sub = 0.0;
+    switch (cT) {
+        case 1:
+            sub = d * 7.5;
+            break;
+        case 2:
+            if (vT == 2) {
+                if (pT == 'S') sub = 19.0;
+                if (pT == 'A') sub = 38.0;
+            }
+            else {
+                if (pT == 'S') sub = 92.0;
+                if (pT == 'A') sub = 184.0;
+            }
+            break;
+        case 3:
+             if (vT == 2) {
+                if (pT == 'S') sub = 19.0;
+                if (pT == 'A') sub = 38.0;
+            }
+            else {
+                if (pT == 'S') sub = 92.0;
+                if (pT == 'A') sub = 184.0;
+            }
+            break;
+        case 4:
+            sub = d * 7.5;
+            break;
+    }
+    return sub;
+}
 
-double subTotal() {
-    double sub = 0;
+// service charge calculation function
+double Invoice::serviceCharge() {
+    double servC = 0.0;
+    if (pM == 'C') servC = subTotal() * 0.04;
+    return servC;
+}
 
+// discount calculation function
+double Invoice::discount() {
+    double discount = 0.0
+    if (cT == 3) discount = subTotal() * 0.83;
+    if (cT == 4) discount = subTotal() * 0.5;
+    return discount;
+}
+
+// total calculation function
+double Invoice::total() {
+    double t = 0.0;
+    total = subTotal() + serviceCharge() - discount();
+    return t;
 }
 
 void Invoice::printInvoice() {
