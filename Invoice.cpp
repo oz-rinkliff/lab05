@@ -53,8 +53,8 @@ void Invoice::printInvoice() {
     cout << "\tAddress: " << a << endl;
         switch (cT) {
             case 1: 
-                cout << "\tDuration on campus: " << u1c << " hours\n";
-                cout << "\tReason for visiting: " << u2c << endl << endl;
+                cout << "\tDuration on Campus: " << u1c << " hours\n";
+                cout << "\tReason for Visiting: " << u2c << endl << endl;
                 break;
             case 2:
                 cout << "\tMajor: " << u1c << endl;
