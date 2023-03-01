@@ -49,27 +49,27 @@ void Invoice::setVarsC(Vendor c) {
 }
 
 void Invoice::setVarsV(Car c) {
-    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    mA = c.getMake(); mO = c.getModel(); y = c.getYear();
     u1v = to_string(c.getHorsePwr()); u2v = to_string(c.getDecibel());
 }
 
 void Invoice::setVarsV(Motorcycle c) {
-    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    mA = c.getMake(); mO = c.getModel(); y = c.getYear();
     u1v = to_string(c.getEngCC()); u2v = to_string(c.getWheelWidth());
 }
 
 void Invoice::setVarsV(Hybrid c) {
-    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    mA = c.getMake(); mO = c.getModel(); y = c.getYear();
     u1v = to_string(c.getMPG()); u2v = c.getDrivetrain();
 }
 
 void Invoice::setVarsV(Electric c) {
-    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    mA = c.getMake(); mO = c.getModel(); y = c.getYear();
     u1v = to_string(c.getChargeTime()); u2v = to_string(c.getCapacity());
 }
 
 void Invoice::setVarsV(Utility c) {
-    ma = c.getMake(); mO = c.getModel(); y = c.getYear();
+    mA = c.getMake(); mO = c.getModel(); y = c.getYear();
     u1v = to_string(c.getWeight()); u2v = c.getLicencePlate();
 }
 
