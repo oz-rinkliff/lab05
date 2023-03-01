@@ -14,14 +14,14 @@
 #include "Visitor.h"
 #include <string>
 using namespace std;
-
+x
 // Invoice class declaration
 class Invoice {
 private:
     int cT, vT, d, y;
     string  n, e, a, 
             u1c, u2c,
-            mA, mO, y, 
+            mA, mO, 
             u1v, u2v;
     char pT, pM;
 public:
@@ -42,6 +42,6 @@ public:
     double subTotal();
     double serviceCharge();
     double total();
-    void printTest(Student);
+    void printInvoice();
 };
 #endif
