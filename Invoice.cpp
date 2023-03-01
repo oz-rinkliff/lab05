@@ -29,23 +29,23 @@ void Invoice::setPM(char i) {
 }
 
 void Invoice::setVarsC(Visitor c) {
-    n = c.getName; e = c.getEmail; a = c.getAddress;
-    u1c = to_string(c.getDuration); u2c = c.getReason;
+    n = c.getName(); e = c.getEmail(); a = c.getAddress();
+    u1c = to_string(c.getDuration()); u2c = c.getReason();
 }
 
 void Invoice::setVarsC(Student c) {
-    n = c.getName; e = c.getEmail; a = c.getAddress;
-    u1c = c.getMajor; u2c = c.getClassYear;
+    n = c.getName(); e = c.getEmail(); a = c.getAddress();
+    u1c = c.getMajor(); u2c = c.getClassYear();
 }
 
 void Invoice::setVarsC(Employee c) {
-    n = c.getName; e = c.getEmail; a = c.getAddress;
-    u1c = c.getDepartment; u2c = c.getTitle;
+    n = c.getName(); e = c.getEmail(); a = c.getAddress();
+    u1c = c.getDepartment(); u2c = c.getTitle();
 }
 
 void Invoice::setVarsC(Vendor c) {
-    n = c.getName; e = c.getEmail; a = c.getAddress;
-    u1c = c.getCompany; u2c = c.getCompanyType;
+    n = c.getName(); e = c.getEmail(); a = c.getAddress();
+    u1c = c.getCompany(); u2c = c.getCompanyType();
 }
 
 void Invoice::setVarsV(Car c) {
