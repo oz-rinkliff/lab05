@@ -161,12 +161,14 @@ void Invoice::printInvoice() {
         if (pT == 'S') cout << "Semester\n\n";
         else cout << "Annual\n\n";
     }
-    cout << "Subtotal: $" << subTotal() << endl << endl;
+    cout << "\n*********************************************************************************\n";
+    cout << "\nSubtotal: $" << subTotal() << endl << endl;
     if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl;
     if (cT == 3 || cT == 4) {
         if (cT == 3) cout << "Employee ";
         else cout << "Vendor ";
         cout << "Discount: $" << discount() << endl << endl;
     }
+    cout << "\n*********************************************************************************\n";
     cout << "\nTotal: $" << total() << endl << endl;
 }
