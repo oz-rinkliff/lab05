@@ -158,7 +158,7 @@ void Invoice::printInvoice() {
     if (cT == 1 || cT == 4) cout << "Number of Days: " << d << endl << endl;
     if (cT == 2 || cT == 3) {
         cout << "Permit Type: ";
-        if (pT == 'S') cout << "Semester\n\n"
+        if (pT == 'S') cout << "Semester\n\n";
         else cout << "Annual\n\n";
     }
     cout << "Subtotal: $" << subTotal() << endl << endl;
