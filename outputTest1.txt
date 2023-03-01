@@ -1,0 +1,86 @@
+
+*********************************************************************************
+*     Welcome to the Clemson University Parking and Transportation Services     *
+*                                                                               *
+*         This program will print out an invoice for your parking pass.         *
+*********************************************************************************
+
+
+The following menu lists the customer type:
+
+	1 - Visitor
+	2 - Student
+	3 - Employee
+	4 - Vendor
+
+Enter the number corresponding to your identification: 1
+
+	Enter your Name: Daniel Robert
+	Enter your Email: daniel7@gmail.com
+	Enter your Address: 100 Lake Street
+	Enter the number of hours for your duration on campus: 3
+	Enter your reason for visiting campus: To see a friend
+
+
+The following menu lists the vehicle type:
+
+	1 - Car
+	2 - Motorcycle
+	3 - Hybrid
+	4 - Electric
+	5 - Utility
+
+Enter the number corresponding to your vehicle type: 1
+
+	Enter the Make: Chevrolet
+	Enter the Model: Equinox
+	Enter the Year: 2018
+	Enter the Horse Power: 190
+	Enter the Decibel Level of the Engine: 9
+
+
+Enter the number of days your will need a permit for: 1
+Enter 'C' if paying with credit/debit card  or 'O' for other payment method: C
+
+Thank you! Generating your invoice now...
+
+
+*********************************************************************************
+*            Clemson University Parking and Transportation Services             *
+*                                                                               *
+*                             Parking Pass Invoice                              *
+*********************************************************************************
+
+---------------------------------------------------------------------------------
+
+Customer Type: Visitor
+
+	Name: Daniel Robert
+	Email: daniel7@gmail.com
+	Address: 100 Lake Street
+	Duration on Campus: 3 hours
+	Reason for Visiting: To see a friend
+
+Vehicle Type: Car
+
+	Make: Chevrolet
+	Model: Equinox
+	Year: 2018
+	Horse Power: 190
+	Decibel Level: 9
+
+Number of Days: 1
+
+---------------------------------------------------------------------------------
+
+Subtotal: $7.50
+
+Service Charge (4%): $0.30
+
+---------------------------------------------------------------------------------
+
+Total: $7.80
+
+---------------------------------------------------------------------------------
+
+

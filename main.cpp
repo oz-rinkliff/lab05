@@ -163,14 +163,14 @@ int main() {
         cout << "\tEnter the Engine's CC: ";
         cin >> unique1i;
         cout << "\tEnter the Wheel Width (in inches): ";
-        cin >> unique2d;
+        cin >> unique2i;
 
         Motorcycle motorcycle;
         motorcycle.setMake(make);
         motorcycle.setModel(model);
         motorcycle.setYear(year);
         motorcycle.setEngCC(unique1i);
-        motorcycle.setWheelWidth(unique2d);
+        motorcycle.setWheelWidth(unique2i);
 
         invoice.setVarsV(motorcycle);
         break;

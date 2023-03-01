@@ -25,7 +25,7 @@ void Motorcycle::setEngCC(int ec){
     engCC = ec;
 };
 
-void Motorcycle::setWheelWidth(double ww){
+void Motorcycle::setWheelWidth(int ww){
     wheelWidth = ww;
 };
 
@@ -47,6 +47,6 @@ int Motorcycle::getEngCC(){
     return engCC;
 };
 
-double Motorcycle::getWheelWidth(){
+int Motorcycle::getWheelWidth(){
     return wheelWidth;
 };

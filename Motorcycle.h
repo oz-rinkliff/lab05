@@ -10,23 +10,21 @@ using namespace std;
 class Motorcycle {
     private:
         string  make, model;
-        int     year, engCC; 
-        double  wheelWidth;
+        int     year, engCC, wheelWidth; 
 
     public:
         void    setMake(string),
                 setModel(string),
                 setYear(int),
                 setEngCC(int),
-                setWheelWidth(double);
+                setWheelWidth(int);
 
         string  getMake(),
                 getModel();
 
         int     getYear(),
-                getEngCC();
-        
-        double  getWheelWidth();
+                getEngCC(),
+                getWheelWidth();
 
 };
 #endif
