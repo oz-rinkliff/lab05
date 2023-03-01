@@ -28,7 +28,45 @@ void Invoice::setPM(char i) {
     pM = i;
 }
 
-//CLASS_FIXME_X_9
+void Invoice::setVarsC(Visitor c) {
+    n = c.getName; e = c.getEmail; a = c.getAddress;
+    u1c = to_string(c.getDuration); u2c = c.getReason;
+}
+
+void Invoice::setVarsC(Student c) {
+    n = c.getName; e = c.getEmail; a = c.getAddress;
+    u1c = c.getMajor; u2c = c.getClassYear;
+}
+
+void Invoice::setVarsC(Employee c) {
+    n = c.getName; e = c.getEmail; a = c.getAddress;
+    u1c = c.getDepartment; u2c = c.getTitle;
+}
+
+void Invoice::setVarsC(Vendor c) {
+    n = c.getName; e = c.getEmail; a = c.getAddress;
+    u1c = c.getCompany; u2c = c.getCompanyType;
+}
+
+void Invoice::setVarsV(Car c) {
+    //FIXME
+}
+
+void Invoice::setVarsV(Motorcycle c) {
+    //FIXME
+}
+
+void Invoice::setVarsV(Hybrid c) {
+    //FIXME
+}
+
+void Invoice::setVarsV(Electric c) {
+    //FIXME
+}
+
+void Invoice::setVarsV(Utility c) {
+    //FIXME
+}
 
 // subtotal calculation function
 double Invoice::subTotal() {

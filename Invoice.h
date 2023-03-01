@@ -30,15 +30,15 @@ public:
     void setD(int);
     void setPT(char);
     void setPM(char);
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
+    void setVarsC(Visitor);
+    void setVarsC(Student);
+    void setVarsC(Employee);
+    void setVarsC(Vendor);
+    void setVarsV(Car);
+    void setVarsV(Motorcycle);
+    void setVarsV(Hybrid);
+    void setVarsV(Electric);
+    void setVarsV(Utility);
     double subTotal();
     double serviceCharge();
     double discount();

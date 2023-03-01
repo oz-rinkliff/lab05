@@ -64,7 +64,7 @@ int main() {
         visitor.setDuration(unique1d);
         visitor.setReason(unique2s);
 
-        //invoice.setUniqueC1d(unique1d);
+        invoice.setVarsC(visitor);
         break;
         }
 
@@ -82,7 +82,7 @@ int main() {
         student.setMajor(unique1s);
         student.setClassYear(unique2s);
 
-        //invoice.printTest(student);
+        invoice.setVarsC(student);
         break;
         }
 
@@ -99,6 +99,8 @@ int main() {
         employee.setAddress(address);
         employee.setDepartment(unique1s);
         employee.setTitle(unique2s);
+
+        invoice.setVarsC(employee);
         break;
         }
 
@@ -115,6 +117,8 @@ int main() {
         vendor.setAddress(address);
         vendor.setCompany(unique1s);
         vendor.setCompanyType(unique2s);
+
+        invoice.setVarsC(vendor);
         break;
         }
     }
@@ -149,6 +153,8 @@ int main() {
         car.setYear(year);
         car.setHorsePwr(unique1i);
         car.setDecibel(unique2i);
+
+        invoice.setVarsV(car);
         break;
         }
 
@@ -165,6 +171,8 @@ int main() {
         motorcycle.setYear(year);
         motorcycle.setEngCC(unique1i);
         motorcycle.setWheelWidth(unique2d);
+
+        invoice.setVarsV(motorcycle);
         break;
         }
 
@@ -182,6 +190,8 @@ int main() {
         hybrid.setYear(year);
         hybrid.setMPG(unique1d);
         hybrid.setDrivetrain(unique2s);
+
+        invoice.setVarsV(hybrid);
         break;
         }
 
@@ -198,6 +208,8 @@ int main() {
         electric.setYear(year);
         electric.setChargeTime(unique1i);
         electric.setCapacity(unique2i);
+
+        invoice.setVarsV(electric);
         break;
         }
 
@@ -215,6 +227,8 @@ int main() {
         utility.setYear(year);
         utility.setWeight(unique1d);
         utility.setLicencePlate(unique2s);
+
+        invoice.setVarsV(utility);
         break;
         }
     }
