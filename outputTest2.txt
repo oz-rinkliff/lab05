@@ -1,0 +1,86 @@
+
+*********************************************************************************
+*     Welcome to the Clemson University Parking and Transportation Services     *
+*                                                                               *
+*         This program will print out an invoice for your parking pass.         *
+*********************************************************************************
+
+
+The following menu lists the customer type:
+
+	1 - Visitor
+	2 - Student
+	3 - Employee
+	4 - Vendor
+
+Enter the number corresponding to your identification: 2
+
+	Enter your Name: Daniel Robert
+	Enter your Email: daniel7@gmail.com
+	Enter your Address: 100 Lake Street
+	Enter your Major: Computer Science
+	Enter your Class Standing: Junior
+
+
+The following menu lists the vehicle type:
+
+	1 - Car
+	2 - Motorcycle
+	3 - Hybrid
+	4 - Electric
+	5 - Utility
+
+Enter the number corresponding to your vehicle type: 2
+
+	Enter the Make: BMW
+	Enter the Model: 1250 GS Adventure
+	Enter the Year: 2021
+	Enter the Engine's CC: 1254
+	Enter the Wheel Width (in inches): 19
+
+
+Enter 'S' for a semester permit or 'A' for an annual permit: A
+Enter 'C' if paying with credit/debit card  or 'O' for other payment method: C
+
+Thank you! Generating your invoice now...
+
+
+*********************************************************************************
+*            Clemson University Parking and Transportation Services             *
+*                                                                               *
+*                             Parking Pass Invoice                              *
+*********************************************************************************
+
+---------------------------------------------------------------------------------
+
+Customer Type: Student
+
+	Name: Daniel Robert
+	Email: daniel7@gmail.com
+	Address: 100 Lake Street
+	Major: Computer Science
+	Class Standing: Junior
+
+Vehicle Type: Motorcycle
+
+	Make: BMW
+	Model: 1250 GS Adventure
+	Year: 2021
+	Engine Size: 1254CC
+	Wheel Width: 19 in.
+
+Permit Type: Annual
+
+---------------------------------------------------------------------------------
+
+Subtotal: $38.00
+
+Service Charge (4%): $1.52
+
+---------------------------------------------------------------------------------
+
+Total: $39.52
+
+---------------------------------------------------------------------------------
+
+

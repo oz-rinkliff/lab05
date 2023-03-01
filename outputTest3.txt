@@ -1,0 +1,86 @@
+
+*********************************************************************************
+*     Welcome to the Clemson University Parking and Transportation Services     *
+*                                                                               *
+*         This program will print out an invoice for your parking pass.         *
+*********************************************************************************
+
+
+The following menu lists the customer type:
+
+	1 - Visitor
+	2 - Student
+	3 - Employee
+	4 - Vendor
+
+Enter the number corresponding to your identification: 3
+
+	Enter your Name: Daniel Robert
+	Enter your Email: daniel7@gmail.com
+	Enter your Address: 100 Lake Street
+	Enter your Department: Computer Science
+	Enter your Title: Professor
+
+
+The following menu lists the vehicle type:
+
+	1 - Car
+	2 - Motorcycle
+	3 - Hybrid
+	4 - Electric
+	5 - Utility
+
+Enter the number corresponding to your vehicle type: 4
+
+	Enter the Make: Tesla
+	Enter the Model: Y
+	Enter the Year: 2022
+	Enter the Charge Time (in minutes): 690
+	Enter the Battery Capacity (in kWh): 81
+
+
+Enter 'S' for a semester permit or 'A' for an annual permit: S
+Enter 'C' if paying with credit/debit card  or 'O' for other payment method: O
+
+Thank you! Generating your invoice now...
+
+
+*********************************************************************************
+*            Clemson University Parking and Transportation Services             *
+*                                                                               *
+*                             Parking Pass Invoice                              *
+*********************************************************************************
+
+---------------------------------------------------------------------------------
+
+Customer Type: Employee
+
+	Name: Daniel Robert
+	Email: daniel7@gmail.com
+	Address: 100 Lake Street
+	Department: Computer Science
+	Title: Professor
+
+Vehicle Type: Electric
+
+	Make: Tesla
+	Model: Y
+	Year: 2022
+	Charge Time: 690 minutes
+	Battery Capacity: 81 kWh
+
+Permit Type: Semester
+
+---------------------------------------------------------------------------------
+
+Subtotal: $92.00
+
+Employee Discount: $76.36
+
+---------------------------------------------------------------------------------
+
+Total: $15.64
+
+---------------------------------------------------------------------------------
+
+

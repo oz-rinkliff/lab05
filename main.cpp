@@ -22,7 +22,6 @@ using namespace std;
 int main() {
     // variable declarations
     int customerType, vehicleType, year, unique1i, unique2i, numDays;
-    double unique1d, unique2d;
     string name, address, email, unique1s, unique2s, make, model;
     char permitType, paymentMthd;
     Invoice invoice;
