@@ -7,14 +7,32 @@
 using namespace std;
 
 
-void Invoice::setCT(int t) {
-    cT = t;
+// setter functions
+void Invoice::setCT(int i) {
+    cT = i;
 }
 
-void Invoice::setVT(int t) {
-    vT = t;
+void Invoice::setVT(int i) {
+    vT = i;
 }
 
+void Invoice::setD(int i) {
+    d = i;
+}
+
+void Invoice::setPT(char i) {
+    pT = i;
+}
+
+void Invoice::setPM(char i) {
+    pM = i;
+}
+
+
+double subTotal() {
+    double sub = 0;
+    
+}
 
 void Invoice::printInvoice() {
     cout << "\nThank you! Generating your invoice now...\n\n\n";
