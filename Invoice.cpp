@@ -28,6 +28,8 @@ void Invoice::setPM(char i) {
     pM = i;
 }
 
+//CLASS_FIXME_X_9
+
 // subtotal calculation function
 double Invoice::subTotal() {
     double sub = 0.0;
@@ -155,8 +157,12 @@ void Invoice::printInvoice() {
     cout << fixed << setprecision(2);
     if (cT == 1 || cT == 4) cout << "Number of Days: " << d << endl << endl;
     if (cT == 2 || cT == 3) cout << "Permit Type: " << pT << endl << endl;
-    // SUBTOTAL_FIXME
-    // if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl << endl;
-    // DISCOUNT_FIXME
-    //cout << "Total: $" << total() << endl << endl;
+    cout << "Subtotal: $" << subTotal() << endl << endl:
+    if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl;
+    if (cT == 3 || cT == 4) {
+        if (cT == 3) cout << "Employee ";
+        else cout << "Vendor ";
+        cout << "Discount: $" << discount() << endl << endl;
+    }
+    cout << "\nTotal: $" << total() << endl << endl;
 }
