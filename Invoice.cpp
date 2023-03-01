@@ -139,7 +139,7 @@ void Invoice::printInvoice() {
                 break;
             case 2:
                 cout << "\tEngine Size: " << u1v << "CC\n";
-                cout << "\tWheel Width: " << u2v << endl << " in.\n";
+                cout << "\tWheel Width: " << u2v << " in.\n\n";
                 break;
             case 3:
                 cout << "\tMPG: " << u1v << endl;
@@ -147,7 +147,7 @@ void Invoice::printInvoice() {
                 break;
             case 4:
                 cout << "\tCharge Time: " << u1v << " minutes\n";
-                cout << "\tBattery Capacity: " << u2v << endl << " kWh\n";
+                cout << "\tBattery Capacity: " << u2v << " kWh\n\n";
                 break;
             case 5:
                 cout << "\tWeight: " << u1v << endl;
@@ -156,7 +156,11 @@ void Invoice::printInvoice() {
         }
     cout << fixed << setprecision(2);
     if (cT == 1 || cT == 4) cout << "Number of Days: " << d << endl << endl;
-    if (cT == 2 || cT == 3) cout << "Permit Type: " << pT << endl << endl;
+    if (cT == 2 || cT == 3) {
+        cout << "Permit Type: ";
+        if (pT == 'S') cout << "Semester\n\n"
+        else cout << "Annual\n\n";
+    }
     cout << "Subtotal: $" << subTotal() << endl << endl;
     if (pM == 'C') cout << "Service Charge (4%): $" << serviceCharge() << endl << endl;
     if (cT == 3 || cT == 4) {

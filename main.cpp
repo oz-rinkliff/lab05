@@ -70,9 +70,9 @@ int main() {
 
         // student
         case 2: {
-        cout << "\tEnter your major: ";
+        cout << "\tEnter your Major: ";
         getline(cin, unique1s);
-        cout << "\tEnter your class standing: ";
+        cout << "\tEnter your Class Standing: ";
         getline(cin, unique2s);
 
         Student student;
@@ -88,9 +88,9 @@ int main() {
 
         // employee
         case 3: {
-        cout << "\tEnter your department: ";
+        cout << "\tEnter your Department: ";
         getline(cin, unique1s);
-        cout << "\tEnter your title: ";
+        cout << "\tEnter your Title: ";
         getline(cin, unique2s);
 
         Employee employee;
@@ -104,9 +104,9 @@ int main() {
 
         // vendor
         case 4: {
-        cout << "\tEnter the name of your company: ";
+        cout << "\tEnter the Name of your Company: ";
         getline(cin, unique1s);
-        cout << "\tEnter the company type: ";
+        cout << "\tEnter the Company Type: ";
         getline(cin, unique2s);
 
         Vendor vendor;
